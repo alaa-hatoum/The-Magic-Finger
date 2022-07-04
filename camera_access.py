@@ -8,8 +8,8 @@ import os
 filename = 'test.jpg'
 
 #image directory
-
 directory = r'C:\Users\alaah\OneDrive\Desktop\Personal Software Projects\The-Magic-Finger'
+
 
 vid = cv2.VideoCapture(0)
 
@@ -24,6 +24,7 @@ while(True):
     #makes the loop end if you press 'q'
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+    
 #changes location of directory
 os.chdir(directory)
 
