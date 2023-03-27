@@ -1,6 +1,5 @@
 # import the opencv library
 import cv2
-
 #importing os module
 import os
 
